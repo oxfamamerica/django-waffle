@@ -1,5 +1,7 @@
 from django.contrib import admin
 from django.dispatch import receiver
+
+from wagtail import hooks
 from wagtail.contrib.modeladmin.options import (
     ModelAdmin,
     ModelAdminGroup,
